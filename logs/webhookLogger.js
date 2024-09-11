@@ -7,6 +7,6 @@ module.exports.logToWebhook = (message) => {
     webhookClient.send({
         content: message,
         username: 'Bot Logs',
-        avatarURL: 'https://lavadev.net/img/lvd.png'
+        avatarURL: 'https://lavadev.net/img/Untitled125_20240803091130.png'
     }).catch(console.error);
 };
